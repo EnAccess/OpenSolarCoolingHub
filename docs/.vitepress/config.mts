@@ -39,7 +39,7 @@ export default withMermaid(
 
     // For hosting on Github pages
     // https://vitepress.dev/guide/deploy#github-pages
-    // base: "/micropowermanager/",
+    base: "/OpenSolarCoolingHub/",
     vite: {
       publicDir: ".public",
     },
