@@ -1,0 +1,13 @@
+Added Component: Designator=GPRS/GSM Module(PCB-8uel65i6q3phkplthmbk-1)
+Added Component: Designator=Relay Module(PCB-8uel65i6q3phkplthmbk-1)
+Added Pin To Net: NetName=+5 Pin=GPRS/GSM Module-1
+Added Pin To Net: NetName=+5 Pin=GPRS/GSM Module-2
+Added Pin To Net: NetName=GND Pin=GPRS/GSM Module-3
+Added Pin To Net: NetName=NetArtduino Mega_D14 Pin=Artduino Mega-D14
+Added Pin To Net: NetName=NetArtduino Mega_D14 Pin=GPRS/GSM Module-5
+Added Net: Name=NetArtduino Mega_D14
+Added Pin To Net: NetName=NetArtduino Mega_D15 Pin=Artduino Mega-D15
+Added Pin To Net: NetName=NetArtduino Mega_D15 Pin=GPRS/GSM Module-4
+Added Net: Name=NetArtduino Mega_D15
+Added Member To Class: ClassName=IOT Schematic File Member=Component GPRS/GSM Module Molex 0530470810
+Added Member To Class: ClassName=IOT Schematic File Member=Component Relay Module Molex 0530470810

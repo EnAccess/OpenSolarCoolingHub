@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=IOT Schematic File Member=X*
+Added Component: Designator=*(EDAC 140-504-415-001-Footprint-1)
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "140-504-415-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart Url"; Value = "https://octopart.com/140-504-415-001-edac-113672781"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OctopartID"; Value = "c0fd0f3167d61f3a"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=IOT Schematic File Member=Component * EDAC 140-504-415-001

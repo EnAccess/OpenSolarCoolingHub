@@ -1,0 +1,47 @@
+Added Component: Designator=Current Sensor(PCB-sk86k7dvvjlolx5r1p4b-1)
+Add component (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "25.0 mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3.00 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "10.0 GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "M20-9990345"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "Through Hole, Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Mating Cycles"; Value = "300"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart URL"; Value = "https://octopart.com/m20-9990345-harwin-5393032"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40.0 °C (min)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC Compliance"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "750 V"; VariantName = "[No Variations]"
+Added Component: Designator=Voltage Sensor(PCB-sk86k7dvvjlolx5r1p4b-1)
+Add component (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "25.0 mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3.00 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "10.0 GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "M20-9990345"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "Through Hole, Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Mating Cycles"; Value = "300"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart URL"; Value = "https://octopart.com/m20-9990345-harwin-5393032"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40.0 °C (min)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC Compliance"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "750 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=Current Sensor-1
+Added Pin To Net: NetName=GND Pin=Current Sensor-3
+Added Pin To Net: NetName=+5 Pin=Voltage Sensor-2
+Added Pin To Net: NetName=GND Pin=Voltage Sensor-3
+Added Pin To Net: NetName=NetArtduino Mega_A14 Pin=Artduino Mega-A14
+Added Pin To Net: NetName=NetArtduino Mega_A14 Pin=Voltage Sensor-1
+Added Net: Name=NetArtduino Mega_A14
+Added Pin To Net: NetName=NetArtduino Mega_A15 Pin=Artduino Mega-A15
+Added Pin To Net: NetName=NetArtduino Mega_A15 Pin=Current Sensor-2
+Added Net: Name=NetArtduino Mega_A15
+Added Member To Class: ClassName=IOT Schematic File Member=Component Current Sensor JMP_3_PTH
+Added Member To Class: ClassName=IOT Schematic File Member=Component Relay Module TE Connectivity 87224-8
+Added Member To Class: ClassName=IOT Schematic File Member=Component Voltage Sensor JMP_3_PTH
