@@ -4,4 +4,4 @@ Solar Powered IoT Cooling Hubs.
 
 It's a super cool project 🎉
 
-IOT Display Link: http://solarcoolingproject.atwebpages.com/RealtimeDisplayImproved.php
+System Documentation Link: [http://solarcoolingproject.atwebpages.com/RealtimeDisplayImproved.php](https://enaccess.github.io/OpenSolarCoolingHub/)
