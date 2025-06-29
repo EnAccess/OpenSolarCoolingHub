@@ -73,6 +73,3 @@ cd OpenSolarCoolingHub
 
 # Flash the firmware to the microcontroller
 # (e.g., using Arduino IDE or PlatformIO)
-
-
----
