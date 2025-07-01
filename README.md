@@ -47,7 +47,7 @@ A comprehensive architectural and systems layout for the off-grid cold room solu
 ## 📎 2. Component Datasheets
 This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards. - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Component%20Datasheets) 
 
-🔗 readme - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Component%20Datasheets/readme) : Lists and explains each hardware module with links to PDFs.<br><br>
+🔗 readme - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/edee4dc87492873370343514b17ce90f6df560b8/Component%20Datasheets) : Lists and explains each hardware module with links to PDFs.<br><br>
 
 
 ## 💰 3. Financial Model Templates
