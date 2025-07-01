@@ -1,8 +1,10 @@
 # 📘 OpenSolarCoolingHub Documentation Index
 
 **Solar Powered IoT Cooling Hubs**  
-_An integrated project that combines architecture, electronics, IoT, and solar engineering to deliver affordable cooling systems for off - grid use._
+_This is a project that brings together architecture, electronics, Internet of Things (IoT), and solar engineering to create affordable and sustainable cooling systems specifically designed for off-grid communities. By integrating smart design with energy-efficient technology and renewable energy sources, the project aims to provide reliable cooling solutions where access to electricity is limited or unavailable. The goal is to improve quality of life, reduce post-harvest losses, and support health and food storage needs in remote or underserved areas._
 
+
+![Cold Room Exterior](/Project%20Images%20and%20Videos/opensolarimage.PNG)
 ![Cold Room Exterior](/Project%20Images%20and%20Videos/PCB%203D%20ANGLE.PNG)
 
 ---
@@ -11,6 +13,7 @@ _An integrated project that combines architecture, electronics, IoT, and solar e
 👉 [View Real-time Sensor Display](http://solarcoolingproject.atwebpages.com/RealtimeDisplayImproved.php)
 
 ![Cold Room Exterior](/Project%20Images%20and%20Videos/solarimagedashboard.PNG)
+
 ---
 
 ## 📂 Folder-wise Documentation Overview
