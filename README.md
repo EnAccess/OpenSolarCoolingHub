@@ -133,7 +133,7 @@ Academic and industry references used for component selection, system design, an
 ## 📘 12. User Manual
 End-user guide for setup, usage, and maintenance of the cold room system.
  - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual) 
-🔗 readme.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual/readme.md) : Step-by-step instructions for installation and safe use.<br><br>
+🔗 readme.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual/readme.md) : Step-by-step instructions for installation and safe use. <br><br>
 
 ---
 
