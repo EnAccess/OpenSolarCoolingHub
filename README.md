@@ -25,10 +25,10 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 
 ---
 
-
+<br><br><br><br>
 
 ## 📂 Folder-wise Documentation Overview
-
+<br>
 ## 🧊 1. Cold Room Design
 A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
 
@@ -38,13 +38,13 @@ A comprehensive architectural and systems layout for the off-grid cold room solu
 
 🔗 Diagrams: Contains structural and conceptual system diagrams.
 
-🔗 System Architecture: Describes the thermal, electrical, and digital system integration to support off-grid functionality.
+🔗 System Architecture: Describes the thermal, electrical, and digital system integration to support off-grid functionality.<br><br>
 
 
 ## 📎 2. Component Datasheets
 This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards.
 
-🔗 readme: Lists and explains each hardware module with links to PDFs.
+🔗 readme: Lists and explains each hardware module with links to PDFs.<br><br>
 
 
 ## 💰 3. Financial Model Templates
@@ -56,7 +56,7 @@ An Excel-based financial modeling toolkit for evaluating the Pay-as-You-Store pr
 
 Pay_as_You_Store_Financial_Model.xlsx
 
-User_Guide_Pay_as_You_Store_Model.pdf
+User_Guide_Pay_as_You_Store_Model.pdf<br><br>
 
 
 ## 🧠 4. IoT Firmware
@@ -66,7 +66,7 @@ Embedded C/C++ code written and compiled using Arduino IDE, designed for the Ard
 
 🔗 src: Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
 
-🔗 README.md: Firmware overview and setup guide.
+🔗 README.md: Firmware overview and setup guide.<br><br>
 
 
 ## 🧱 5. IoT System Enclosure
@@ -74,7 +74,7 @@ Designed in OpenSCAD, this section provides both editable 3D models and printabl
 
 🔗 3D Models: .step files for customization and mechanical fitting.
 
-🔗 STL Files: Ready-to-print STL files for 3D printing.
+🔗 STL Files: Ready-to-print STL files for 3D printing.<br><br>
 
 
 ## 💻 6. IoT PCB Design
@@ -82,7 +82,7 @@ PCB schematics, layout, and manufacturing-ready files created using CircuitMaker
 
 🔗 Export Files: Contains all files for fabrication, drilling, and assembly.
 
-🔗 schematics: Design files including SchDoc, CMPcbDoc, and the project structure.
+🔗 schematics: Design files including SchDoc, CMPcbDoc, and the project structure.<br><br>
 
 
 ## 🧪 7. IoT Simulation
@@ -92,7 +92,7 @@ Logic simulation and virtual validation of the IoT system using Proteus Professi
 
 Includes:
 
-Cold Solar Storage Proteus Simulation.pdsprj
+Cold Solar Storage Proteus Simulation.pdsprj<br><br>
 
 
 ## 🌐 8. IoT System Website
@@ -100,7 +100,7 @@ Built with PHP, MySQL, HTML, CSS, the cloud dashboard enables real-time monitori
 
 🔗 public: All PHP scripts for inserting, fetching, and displaying sensor data.
 
-🔗 README.md: Website structure and deployment guide.
+🔗 README.md: Website structure and deployment guide.<br><br>
 
 
 ## 🎥 9. Project Images and Videos
@@ -108,7 +108,7 @@ A visual gallery showing the project progress and deliverables including 3D PCB 
 
 🔗 readme: Describes the contents with image titles.
 
-Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.
+Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.<br><br>
 
 
 ## 🧪 10. System Testing
@@ -118,19 +118,19 @@ This section documents the calibration, test planning, and final performance res
 
 🔗 TestPlans: Structured validation plans.
 
-🔗 TestResults: Performance outcomes and notes.
+🔗 TestResults: Performance outcomes and notes.<br><br>
 
 
 ## 📚 11. Technical References
 Academic and industry references used for component selection, system design, and technical justification.
 
-🔗 readme: Lists all whitepapers and citations.
+🔗 readme: Lists all whitepapers and citations.<br><br>
 
 
 ## 📘 12. User Manual
 End-user guide for setup, usage, and maintenance of the cold room system.
 
-🔗 readme.md: Step-by-step instructions for installation and safe use.
+🔗 readme.md: Step-by-step instructions for installation and safe use.<br><br>
 
 ---
 
