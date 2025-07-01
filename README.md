@@ -26,7 +26,7 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 ## 📂 Folder-wise Documentation Overview
 
 ### 1. Cold Room Design
-- [`ColdRoom/Archicad Files`](#cold-room-designcoldroomarchicad-filesreadme): ArchiCAD plans for the cold room architecture.
+- [`ColdRoom/Archicad Files`](#Cold%20Room%20Design/ColdRoom/Archicad%20Files/readme.md): ArchiCAD plans for the cold room architecture.
 - [`CAD Exports`](#cold-room-designcoldroomcad-exportsreadme): PDF & image exports of latrine, tank, gate, and layout.
 - [`Diagrams`](#cold-room-designcoldroomdiagramsreadme): Structural and conceptual diagrams.
 - [`SystemArchitecture`](#cold-room-designsystemarchitecturereadmemd): Thermal, electrical, and digital system integration.
