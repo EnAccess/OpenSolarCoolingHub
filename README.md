@@ -1,3 +1,5 @@
+<div align="center">
+
 # OpenSolarCoolingHub Documentation Index
 
 **Solar Powered IoT Cooling Hubs**  
@@ -134,4 +136,4 @@ End-user guide for setup, usage, and maintenance of the cold room system.
 
 ---
 
-
+</div>
