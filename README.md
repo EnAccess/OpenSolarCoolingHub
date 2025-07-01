@@ -31,6 +31,7 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 
 ## 📂 Folder-wise Documentation Overview
 <br>
+
 ## 🧊 1. Cold Room Design 
 A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
 
