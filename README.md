@@ -89,8 +89,8 @@ PCB schematics, layout, and manufacturing-ready files created using CircuitMaker
 
 ## 🧪 7. IoT Simulation
 Logic simulation and virtual validation of the IoT system using Proteus Professional.
- - [Link]() 
-🔗 readmefile.md - [Link]() : Instructions and configuration.
+ - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Simulation%20with%20Proteus%20Pro) 
+🔗 readmefile.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Simulation%20with%20Proteus%20Pro/readmefile.md) : Instructions and configuration.
 
 Includes:
 
@@ -100,14 +100,14 @@ Cold Solar Storage Proteus Simulation.pdsprj<br><br>
 ## 🌐 8. IoT System Website
 Built with PHP, MySQL, HTML, CSS, the cloud dashboard enables real-time monitoring of cold room conditions remotely.
 
-🔗 public - [Link]() : All PHP scripts for inserting, fetching, and displaying sensor data.<br><br>
-
+🔗 public - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Website/public) : All PHP scripts for inserting, fetching, and displaying sensor data.<br><br>
+🔗 readmefile.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Website/README.md)
 
 
 
 ## 🎥 9. Project Images and Videos
 A visual gallery showing the project progress and deliverables including 3D PCB renderings and schematics.
- - [Link]() 
+ - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/Project%20Images%20and%20Videos) 
 
 
 Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.<br><br>
@@ -116,23 +116,23 @@ Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.<br><br>
 ## 🧪 10. System Testing
 This section documents the calibration, test planning, and final performance results of the overall system.
 
-🔗 Calibration - [Link]() : Logs and notes on sensor tuning.
+🔗 Calibration - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/System%20Testing/Calibration) : Logs and notes on sensor tuning.
 
-🔗 TestPlans - [Link]() : Structured validation plans.
+🔗 TestPlans - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/System%20Testing/TestPlans) : Structured validation plans.
 
-🔗 TestResults - [Link]() : Performance outcomes and notes.<br><br>
+🔗 TestResults - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/System%20Testing/TestResults) : Performance outcomes and notes.<br><br>
 
 
 ## 📚 11. Technical References
 Academic and industry references used for component selection, system design, and technical justification.
- - [Link]() 
+ - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/Technical%20References) 
 <br><br>
 
 
 ## 📘 12. User Manual
 End-user guide for setup, usage, and maintenance of the cold room system.
- - [Link]() 
-🔗 readme.md - [Link]() : Step-by-step instructions for installation and safe use.<br><br>
+ - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual) 
+🔗 readme.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual/readme.md) : Step-by-step instructions for installation and safe use.<br><br>
 
 ---
 
