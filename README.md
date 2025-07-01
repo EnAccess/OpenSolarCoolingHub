@@ -31,66 +31,66 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 
 ## 📂 Folder-wise Documentation Overview
 <br>
-## 🧊 1. Cold Room Design
+## 🧊 1. Cold Room Design 
 A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
 
-🔗 [Archicad Files](https://github.com/EnAccess/OpenSolarCoolingHub/tree/c5bf5beb5478b6b1d85372106228dade5b780e25/Cold%20Room%20Design/ColdRoom/Archicad%20Files): Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
+🔗 Archicad Files - [Link]() : Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
 
-🔗 CAD Exports: Includes PDFs and images of the VIP latrine, tank and base, gate, fence, and full site layout.
+🔗 CAD Exports - [Link]() : Includes PDFs and images of the VIP latrine, tank and base, gate, fence, and full site layout.
 
-🔗 Diagrams: Contains structural and conceptual system diagrams.
+🔗 Diagrams - [Link]() : Contains structural and conceptual system diagrams.
 
-🔗 System Architecture: Describes the thermal, electrical, and digital system integration to support off-grid functionality.<br><br>
+🔗 System Architecture - [Link]() : Describes the thermal, electrical, and digital system integration to support off-grid functionality.<br><br>
 
 
 ## 📎 2. Component Datasheets
-This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards.
+This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards. - [Link]() 
 
-🔗 readme: Lists and explains each hardware module with links to PDFs.<br><br>
+🔗 readme - [Link]() : Lists and explains each hardware module with links to PDFs.<br><br>
 
 
 ## 💰 3. Financial Model Templates
 An Excel-based financial modeling toolkit for evaluating the Pay-as-You-Store pricing strategy and sustainability metrics.
-
-🔗 readme.md: Overview of model usage.
+ - [Link]() 
+🔗 readme.md - [Link]() : Overview of model usage.
 
 📊 Includes:
 
-Pay_as_You_Store_Financial_Model.xlsx
+Pay_as_You_Store_Financial_Model.xlsx - [Link]() 
 
-User_Guide_Pay_as_You_Store_Model.pdf<br><br>
+User_Guide_Pay_as_You_Store_Model.pdf - [Link]() <br><br>
 
 
 ## 🧠 4. IoT Firmware
 Embedded C/C++ code written and compiled using Arduino IDE, designed for the Arduino Mega. This firmware handles sensor input, GSM communication, and relay control logic.
 
-🔗 libraries: Required libraries like DHTlib and Adafruit MLX90614.
+🔗 libraries - [Link]() : Required libraries like DHTlib and Adafruit MLX90614.
 
-🔗 src: Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
+🔗 src - [Link]() : Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
 
-🔗 README.md: Firmware overview and setup guide.<br><br>
+🔗 README.md - [Link]() : Firmware overview and setup guide.<br><br>
 
 
 ## 🧱 5. IoT System Enclosure
 Designed in OpenSCAD, this section provides both editable 3D models and printable STL files for creating protective enclosures for the PCB.
 
-🔗 3D Models: .step files for customization and mechanical fitting.
+🔗 3D Models - [Link]() : .step files for customization and mechanical fitting.
 
-🔗 STL Files: Ready-to-print STL files for 3D printing.<br><br>
+🔗 STL Files - [Link]() : Ready-to-print STL files for 3D printing.<br><br>
 
 
 ## 💻 6. IoT PCB Design
-PCB schematics, layout, and manufacturing-ready files created using CircuitMaker (Altium's free tool). Includes Gerbers, BoMs, pick-and-place files, and fabrication data.
+PCB schematics, layout, and manufacturing-ready files created using CircuitMaker (Altium's free tool). Includes Gerbers, BoMs, pick-and-place files, and fabrication data. - [Link]() 
 
-🔗 Export Files: Contains all files for fabrication, drilling, and assembly.
+🔗 Export Files - [Link]() : Contains all files for fabrication, drilling, and assembly.
 
-🔗 schematics: Design files including SchDoc, CMPcbDoc, and the project structure.<br><br>
+🔗 schematics - [Link]() : Design files including SchDoc, CMPcbDoc, and the project structure.<br><br>
 
 
 ## 🧪 7. IoT Simulation
 Logic simulation and virtual validation of the IoT system using Proteus Professional.
-
-🔗 readmefile.md: Instructions and configuration.
+ - [Link]() 
+🔗 readmefile.md - [Link]() : Instructions and configuration.
 
 Includes:
 
@@ -100,15 +100,15 @@ Cold Solar Storage Proteus Simulation.pdsprj<br><br>
 ## 🌐 8. IoT System Website
 Built with PHP, MySQL, HTML, CSS, the cloud dashboard enables real-time monitoring of cold room conditions remotely.
 
-🔗 public: All PHP scripts for inserting, fetching, and displaying sensor data.
+🔗 public - [Link]() : All PHP scripts for inserting, fetching, and displaying sensor data.<br><br>
 
-🔗 README.md: Website structure and deployment guide.<br><br>
+
 
 
 ## 🎥 9. Project Images and Videos
 A visual gallery showing the project progress and deliverables including 3D PCB renderings and schematics.
+ - [Link]() 
 
-🔗 readme: Describes the contents with image titles.
 
 Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.<br><br>
 
@@ -116,23 +116,23 @@ Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.<br><br>
 ## 🧪 10. System Testing
 This section documents the calibration, test planning, and final performance results of the overall system.
 
-🔗 Calibration: Logs and notes on sensor tuning.
+🔗 Calibration - [Link]() : Logs and notes on sensor tuning.
 
-🔗 TestPlans: Structured validation plans.
+🔗 TestPlans - [Link]() : Structured validation plans.
 
-🔗 TestResults: Performance outcomes and notes.<br><br>
+🔗 TestResults - [Link]() : Performance outcomes and notes.<br><br>
 
 
 ## 📚 11. Technical References
 Academic and industry references used for component selection, system design, and technical justification.
-
-🔗 readme: Lists all whitepapers and citations.<br><br>
+ - [Link]() 
+<br><br>
 
 
 ## 📘 12. User Manual
 End-user guide for setup, usage, and maintenance of the cold room system.
-
-🔗 readme.md: Step-by-step instructions for installation and safe use.<br><br>
+ - [Link]() 
+🔗 readme.md - [Link]() : Step-by-step instructions for installation and safe use.<br><br>
 
 ---
 
