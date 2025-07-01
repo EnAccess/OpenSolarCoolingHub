@@ -34,7 +34,7 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 ## 🧊 1. Cold Room Design
 A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
 
-🔗 Archicad Files: Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
+🔗 [Archicad Files](https://github.com/EnAccess/OpenSolarCoolingHub/tree/c5bf5beb5478b6b1d85372106228dade5b780e25/Cold%20Room%20Design/ColdRoom/Archicad%20Files): Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
 
 🔗 CAD Exports: Includes PDFs and images of the VIP latrine, tank and base, gate, fence, and full site layout.
 
