@@ -5,11 +5,13 @@ _This is a project that brings together architecture, electronics, Internet of T
 
 ## 🔗 Cold Room Exterior
 This image shows the exterior design of the solar-powered cold room, constructed with durable, insulated materials to maintain optimal internal temperatures. The structure is optimized for energy efficiency and environmental resilience, making it ideal for use in rural or off-grid locations. Its compact and modular design allows for easy transport, installation, and maintenance in remote areas.
+
 ![Cold Room Exterior](/Project%20Images%20and%20Videos/opensolarimage.PNG)
 
 
 ## 🔗 IOT Sytem PCB
 Displayed here is the custom-designed Printed Circuit Board (PCB) for the IoT system. This board forms the core of the system’s electronics, managing sensor data, control signals, and wireless communication. The PCB is engineered to interface with temperature, humidity, and door sensors, and is optimized for low power consumption and real-time data transmission, supporting remote monitoring and control via a web dashboard.
+
 ![IOT Sytem PCB](/Project%20Images%20and%20Videos/PCB%203D%20ANGLE.PNG)
 
 ---
@@ -23,53 +25,112 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 
 ---
 
+
+
 ## 📂 Folder-wise Documentation Overview
 
-### 1. Cold Room Design
-- [`ColdRoom/Archicad Files`](#Cold%20Room%20Design/ColdRoom/Archicad%20Files/readme.md): ArchiCAD plans for the cold room architecture.
-- [`CAD Exports`](#cold-room-designcoldroomcad-exportsreadme): PDF & image exports of latrine, tank, gate, and layout.
-- [`Diagrams`](#cold-room-designcoldroomdiagramsreadme): Structural and conceptual diagrams.
-- [`SystemArchitecture`](#cold-room-designsystemarchitecturereadmemd): Thermal, electrical, and digital system integration.
+## 🧊 1. Cold Room Design
+A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
 
-### 2. Component Datasheets
-- [`readme`](#component-datasheetsreadme): Technical specifications for all sensors, microcontrollers, GSM, etc.
+🔗 Archicad Files: Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
 
-### 3. Financial Model Templates
-- [`readme.md`](#financial-model-templatesreadmemd): Excel-based economic model for Pay-as-You-Store.
+🔗 CAD Exports: Includes PDFs and images of the VIP latrine, tank and base, gate, fence, and full site layout.
 
-### 4. IoT Firmware
-- [`libraries`](#iot-system-arduino-firmwarelibrariesreadme): Required Arduino libraries.
-- [`src`](#iot-system-arduino-firmwaresrcreadme): Source code for sensors, GSM, integration.
-- [`README.md`](#iot-system-arduino-firmwarereadmemd): General firmware overview.
+🔗 Diagrams: Contains structural and conceptual system diagrams.
 
-### 5. IoT System Enclosure
-- [`3D Models`](#iot-system-enclosure3d-modelsreadme): OpenSCAD STEP files for board casing.
-- [`STL Files`](#iot-system-enclosurestl-filesreadme): 3D printable STL output for the casing.
+🔗 System Architecture: Describes the thermal, electrical, and digital system integration to support off-grid functionality.
 
-### 6. IoT PCB Design
-- [`Export Files`](#iot-system-pcbexport-filesreadme): Gerbers, BOMs, pick-place files for fabrication.
-- [`schematics`](#iot-system-pcbschematicsreadme): CircuitMaker schematic files and project config.
 
-### 7. IoT Simulation
-- [`readmefile.md`](#iot-system-simulation-with-proteus-proreadmefilemd): Simulates logic with Proteus.
+## 📎 2. Component Datasheets
+This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards.
 
-### 8. IoT System Website
-- [`public`](#iot-system-websitepublicreadme): PHP and SQL for cloud monitoring.
-- [`README.md`](#iot-system-websitereadmemd): Web structure overview.
+🔗 readme: Lists and explains each hardware module with links to PDFs.
 
-### 9. Project Images and Videos
-- [`readme`](#project-images-and-videosreadme): Gallery with PCB 3D views, diagrams.
 
-### 10. System Testing
-- [`Calibration`](#system-testingcalibrationreadme): Sensor tuning logs.
-- [`TestPlans`](#system-testingtestplansreadme): Planned validation activities.
-- [`TestResults`](#system-testingtestresultsreadmemd): Performance outcomes.
+## 💰 3. Financial Model Templates
+An Excel-based financial modeling toolkit for evaluating the Pay-as-You-Store pricing strategy and sustainability metrics.
 
-### 11. Technical References
-- [`readme`](#technical-referencesreadme): Academic sources and whitepapers.
+🔗 readme.md: Overview of model usage.
 
-### 12. User Manual
-- [`readme.md`](#user-manualreadmemd): Setup and usage instructions for end-users.
+📊 Includes:
+
+Pay_as_You_Store_Financial_Model.xlsx
+
+User_Guide_Pay_as_You_Store_Model.pdf
+
+
+## 🧠 4. IoT Firmware
+Embedded C/C++ code written and compiled using Arduino IDE, designed for the Arduino Mega. This firmware handles sensor input, GSM communication, and relay control logic.
+
+🔗 libraries: Required libraries like DHTlib and Adafruit MLX90614.
+
+🔗 src: Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
+
+🔗 README.md: Firmware overview and setup guide.
+
+
+## 🧱 5. IoT System Enclosure
+Designed in OpenSCAD, this section provides both editable 3D models and printable STL files for creating protective enclosures for the PCB.
+
+🔗 3D Models: .step files for customization and mechanical fitting.
+
+🔗 STL Files: Ready-to-print STL files for 3D printing.
+
+
+## 💻 6. IoT PCB Design
+PCB schematics, layout, and manufacturing-ready files created using CircuitMaker (Altium's free tool). Includes Gerbers, BoMs, pick-and-place files, and fabrication data.
+
+🔗 Export Files: Contains all files for fabrication, drilling, and assembly.
+
+🔗 schematics: Design files including SchDoc, CMPcbDoc, and the project structure.
+
+
+## 🧪 7. IoT Simulation
+Logic simulation and virtual validation of the IoT system using Proteus Professional.
+
+🔗 readmefile.md: Instructions and configuration.
+
+Includes:
+
+Cold Solar Storage Proteus Simulation.pdsprj
+
+
+## 🌐 8. IoT System Website
+Built with PHP, MySQL, HTML, CSS, the cloud dashboard enables real-time monitoring of cold room conditions remotely.
+
+🔗 public: All PHP scripts for inserting, fetching, and displaying sensor data.
+
+🔗 README.md: Website structure and deployment guide.
+
+
+## 🎥 9. Project Images and Videos
+A visual gallery showing the project progress and deliverables including 3D PCB renderings and schematics.
+
+🔗 readme: Describes the contents with image titles.
+
+Includes: PCB 2D.PNG, PCB 3D ANGLE.PNG, Schematic.PNG, etc.
+
+
+## 🧪 10. System Testing
+This section documents the calibration, test planning, and final performance results of the overall system.
+
+🔗 Calibration: Logs and notes on sensor tuning.
+
+🔗 TestPlans: Structured validation plans.
+
+🔗 TestResults: Performance outcomes and notes.
+
+
+## 📚 11. Technical References
+Academic and industry references used for component selection, system design, and technical justification.
+
+🔗 readme: Lists all whitepapers and citations.
+
+
+## 📘 12. User Manual
+End-user guide for setup, usage, and maintenance of the cold room system.
+
+🔗 readme.md: Step-by-step instructions for installation and safe use.
 
 ---
 
