@@ -88,8 +88,8 @@ PCB schematics, layout, and manufacturing-ready files created using CircuitMaker
 
 
 ## 🧪 7. IoT Simulation
-Logic simulation and virtual validation of the IoT system using Proteus Professional.
- - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Simulation%20with%20Proteus%20Pro) 
+Logic simulation and virtual validation of the IoT system using Proteus Professional. - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Simulation%20with%20Proteus%20Pro) 
+
 🔗 readmefile.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/IOT%20System%20Simulation%20with%20Proteus%20Pro/readmefile.md) : Instructions and configuration.
 
 Includes:
