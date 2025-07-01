@@ -3,7 +3,7 @@
 **Solar Powered IoT Cooling Hubs**  
 _An integrated project that combines architecture, electronics, IoT, and solar engineering to deliver affordable cooling systems for off - grid use._
 
-![Cold Room Exterior](/Cold%20Room%20Design/ColdRoom/CAD%20Exports/opensolarimage.PNG)
+![Cold Room Exterior](/Project%20Images%20and%20Videos/PCB%203D%20ANGLE.PNG)
 
 ---
 
