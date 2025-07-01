@@ -10,6 +10,9 @@ _An integrated project that combines architecture, electronics, IoT, and solar e
 ## 🔗 Live IoT Dashboard  
 👉 [View Real-time Sensor Display](http://solarcoolingproject.atwebpages.com/RealtimeDisplayImproved.php)
 
+### Example
+👉 ![Example Real-time Sensor Display](/Project%20Images%20and%20Videos/solarimagedashboard.PNG)
+
 ---
 
 ## 📂 Folder-wise Documentation Overview
