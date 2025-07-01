@@ -34,57 +34,57 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 ## 🧊 1. Cold Room Design 
 A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
 
-🔗 Archicad Files - [Link]() : Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
+🔗 Archicad Files - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Cold%20Room%20Design/ColdRoom/Archicad%20Files) : Contains the primary architectural plan (FarmFreeze_Munakyalo (ArchiCAD 25).pln) with accompanying documentation.
 
-🔗 CAD Exports - [Link]() : Includes PDFs and images of the VIP latrine, tank and base, gate, fence, and full site layout.
+🔗 CAD Exports - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Cold%20Room%20Design/ColdRoom/CAD%20Exports) : Includes PDFs and images of the VIP latrine, tank and base, gate, fence, and full site layout.
 
-🔗 Diagrams - [Link]() : Contains structural and conceptual system diagrams.
+🔗 Diagrams - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Cold%20Room%20Design/ColdRoom/Diagrams) : Contains structural and conceptual system diagrams.
 
-🔗 System Architecture - [Link]() : Describes the thermal, electrical, and digital system integration to support off-grid functionality.<br><br>
+🔗 System Architecture - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Cold%20Room%20Design/SystemArchitecture) : Describes the thermal, electrical, and digital system integration to support off-grid functionality.<br><br>
 
 
 ## 📎 2. Component Datasheets
-This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards. - [Link]() 
+This folder contains the technical specifications of all key components used across the system. Includes datasheets for sensors (DHT22, MLX90614), power modules, GSM, and Arduino boards. - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Component%20Datasheets) 
 
-🔗 readme - [Link]() : Lists and explains each hardware module with links to PDFs.<br><br>
+🔗 readme - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Component%20Datasheets/readme) : Lists and explains each hardware module with links to PDFs.<br><br>
 
 
 ## 💰 3. Financial Model Templates
 An Excel-based financial modeling toolkit for evaluating the Pay-as-You-Store pricing strategy and sustainability metrics.
- - [Link]() 
-🔗 readme.md - [Link]() : Overview of model usage.
+ - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Financial%20Model%20Templates) 
+🔗 readme.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Financial%20Model%20Templates/readme.md) : Overview of model usage.
 
 📊 Includes:
 
-Pay_as_You_Store_Financial_Model.xlsx - [Link]() 
+Pay_as_You_Store_Financial_Model.xlsx - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Financial%20Model%20Templates/Pay_as_You_Store_Financial_Model.xlsx) 
 
-User_Guide_Pay_as_You_Store_Model.pdf - [Link]() <br><br>
+User_Guide_Pay_as_You_Store_Model.pdf - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/Financial%20Model%20Templates/User_Guide_Pay_as_You_Store_Model.pdf) <br><br>
 
 
 ## 🧠 4. IoT Firmware
 Embedded C/C++ code written and compiled using Arduino IDE, designed for the Arduino Mega. This firmware handles sensor input, GSM communication, and relay control logic.
 
-🔗 libraries - [Link]() : Required libraries like DHTlib and Adafruit MLX90614.
+🔗 libraries - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Arduino%20Firmware/libraries) : Required libraries like DHTlib and Adafruit MLX90614.
 
-🔗 src - [Link]() : Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
+🔗 src - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Arduino%20Firmware/src) : Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
 
-🔗 README.md - [Link]() : Firmware overview and setup guide.<br><br>
+🔗 README.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Arduino%20Firmware/src/readme) : Firmware overview and setup guide.<br><br>
 
 
 ## 🧱 5. IoT System Enclosure
 Designed in OpenSCAD, this section provides both editable 3D models and printable STL files for creating protective enclosures for the PCB.
 
-🔗 3D Models - [Link]() : .step files for customization and mechanical fitting.
+🔗 3D Models - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Enclosure/3D%20Models) : .step files for customization and mechanical fitting.
 
-🔗 STL Files - [Link]() : Ready-to-print STL files for 3D printing.<br><br>
+🔗 STL Files - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Enclosure/STL%20Files) : Ready-to-print STL files for 3D printing.<br><br>
 
 
 ## 💻 6. IoT PCB Design
-PCB schematics, layout, and manufacturing-ready files created using CircuitMaker (Altium's free tool). Includes Gerbers, BoMs, pick-and-place files, and fabrication data. - [Link]() 
+PCB schematics, layout, and manufacturing-ready files created using CircuitMaker (Altium's free tool). Includes Gerbers, BoMs, pick-and-place files, and fabrication data. - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20PCB) 
 
-🔗 Export Files - [Link]() : Contains all files for fabrication, drilling, and assembly.
+🔗 Export Files - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20PCB/Export%20FIles) : Contains all files for fabrication, drilling, and assembly.
 
-🔗 schematics - [Link]() : Design files including SchDoc, CMPcbDoc, and the project structure.<br><br>
+🔗 schematics - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20PCB/schematics) : Design files including SchDoc, CMPcbDoc, and the project structure.<br><br>
 
 
 ## 🧪 7. IoT Simulation
