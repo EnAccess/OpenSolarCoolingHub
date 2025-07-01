@@ -73,11 +73,4 @@ The live IoT dashboard provides real-time monitoring of environmental conditions
 
 ---
 
-## 📁 Individual Folder Readmes
-
-> All folder readmes follow below this line. These include tools used, current progress, and technical relevance.
-
----
-
-### 📁 Cold Room Design/ColdRoom/Archicad Files/readme
 
