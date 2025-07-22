@@ -1,4 +1,3 @@
-markdown
 This directory contains all PCB design files for the IoT Monitoring System used in the Open Solar Cooling Hub. The design was created using Altium CircuitMaker.
 
 # How to Open and Modify the PCB Design
