@@ -1,2 +1,23 @@
-Folders has ArchiCAD files drafted with version 25 containing editable drawings of the pdf files in the output folder.
-File (FarmFreeze_Munakyalo (ArchiCAD 25).pln) is the first version of the document containing the office & guardhouse, latrine, and fence
+This folder contains editable architectural design files for the FarmFreeze Munakyalo Cold Room project, modeled using Graphisoft ArchiCAD 25. The files include the office & guardhouse, latrine, and perimeter fence.
+
+How to Install ArchiCAD
+Visit Graphisoft's website:
+https://www.graphisoft.com/downloads/
+Choose ArchiCAD 25:
+Scroll to the “Previous Versions” section if ArchiCAD 25 is not the latest.
+Select your platform (Windows or macOS)
+Register for a free trial or education license:
+You'll need to create a Graphisoft account.
+For students or educators: apply for a free EDU license.
+Download and Install:
+Run the installer and follow the on-screen instructions
+Open ArchiCAD after installation
+
+How to Open and Modify the Project
+Launch ArchiCAD 25
+Open the file:
+File → Open → Select FarmFreeze_Munakyalo (ArchiCAD 25).pln
+Use the tools in the Plan, 3D, and Document views to:
+Modify wall placements, structures, labels
+Add or remove design elements (e.g., furniture, fixtures)
+Export updated PDFs or 3D models
