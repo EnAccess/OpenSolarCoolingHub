@@ -20,8 +20,7 @@ This is required since CircuitMaker uses cloud-based project management.
 
 # Load the Project
 Open CircuitMaker.
-Go to File → Open Project → Browse.
-Navigate to this directory and open the project file:
+open this link: https://365.altium.com/files/FD40F198-177B-4D2F-B652-184317044322
 Open Solar Cooling Hub PCB Project - Enaccess.PrjPcb
 View and edit schematics using .SchDoc
 Modify PCB layout using .CmpcbDoc
