@@ -69,7 +69,7 @@ Embedded C/C++ code written and compiled using Arduino IDE, designed for the Ard
 
 🔗 src - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Arduino%20Firmware/src) : Source code examples including merged sensor tests, GSM modules, relay switching, and address configuration.
 
-🔗 README.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Arduino%20Firmware/src/readme) : Firmware overview and setup guide.<br><br>
+🔗 README.md - [Link]([https://github.com/EnAccess/OpenSolarCoolingHub/blob/b22f68ab80e7eb956e8c33c35e9078b9c4da2ed1/IOT%20System%20Arduino%20Firmware/src/readme](https://github.com/EnAccess/OpenSolarCoolingHub/blob/243c3de1c4182eb7e5c24f7d1faaf12b4d0801e8/IOT%20System%20Arduino%20Firmware/README.md)) : Firmware overview and setup guide.<br><br>
 
 
 ## 🧱 5. IoT System Enclosure
