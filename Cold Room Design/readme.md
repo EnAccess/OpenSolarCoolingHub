@@ -1,1 +1,25 @@
-A comprehensive architectural and systems layout for the off-grid cold room solution. Designed using SolidWorks and Archicad, this section includes construction drawings, 3D models, conceptual diagrams, and thermal/digital integration details.
+This folder contains editable architectural design files for the FarmFreeze Munakyalo Cold Room project, modeled using Graphisoft ArchiCAD 25. The files include the office & guardhouse, latrine, and perimeter fence.
+
+# How to Install ArchiCAD
+
+Visit Graphisoft's website:
+https://www.graphisoft.com/downloads/
+Choose ArchiCAD 25:
+Scroll to the “Previous Versions” section if ArchiCAD 25 is not the latest.
+Select your platform (Windows or macOS)
+Register for a free trial or education license:
+You'll need to create a Graphisoft account.
+For students or educators: apply for a free EDU license.
+Download and Install:
+Run the installer and follow the on-screen instructions
+Open ArchiCAD after installation
+
+# How to Open and Modify the Project
+
+Launch ArchiCAD 25
+Open the file:
+File → Open → Select FarmFreeze_Munakyalo (ArchiCAD 25).pln
+Use the tools in the Plan, 3D, and Document views to:
+Modify wall placements, structures, labels
+Add or remove design elements (e.g., furniture, fixtures)
+Export updated PDFs or 3D models
