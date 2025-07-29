@@ -1,5 +1,7 @@
 #  IoT System – Hardware Configuration & Setup Instructions
 
+Make the connections as shown below and power the Solar Battery System and the ssytem will work as expected
+
 ##  Table of Contents
 - [Components List](#components-list)
 - [Power Supply Architecture](#power-supply-architecture)
