@@ -2,6 +2,13 @@
 Visit the official OpenSCAD site:
  https://openscad.org/downloads.html
 Download the version for your OS (Windows, Linux, or Mac).
+
+OpenSCAD version 2021.01 
+Copyright (C) 2009-2021 The OpenSCAD Developers 
+License 
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. 
+
+
 Install it using default options.
 
 # Open and Preview Your Casing Model
