@@ -1,1 +1,72 @@
+## 🧱 IOT Casing Design (OpenSCAD)
 
+### 📂 SCAD Files Overview
+
+This directory contains the OpenSCAD source files used to design the casing for the IoT system. Over the course of development, multiple versions were created to explore design iterations. Below is an explanation of each file and its purpose:
+
+| File Name             | Purpose                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| `IOT Casing 2.scad`   | Early prototype – experimented with wall structure and ventilation.     |
+| `IOT Casing 3.scad`   | Added screw posts and optimized base dimensions.                        |
+| `IOT Casing 4.scad`   | Refined version with rounded edges and better component spacing.        |
+| `IOT Casing.scad`     | ✅ Final version used in the actual system enclosure.                    |
+
+Only `IOT Casing.scad` is required to reproduce the final casing design. The others are archived for reference and comparison.
+
+---
+
+### 🏗️ Design Rules
+
+The casing was designed in OpenSCAD following these guidelines:
+
+- **Board Size**: `[174.88, 153.67, 13.84]` mm
+- **Wall Thickness**: `3 mm` – to ensure strength and printability
+- **Base Height**: `5 mm` – sufficient for supporting screw posts and standoffs
+- **Cover Thickness**: `3 mm` – strong enough to hold shape without warping
+- **Margin**: `5 mm` around the board for airflow and tolerances
+- **Screw Posts**: Centered in the corners and compatible with M3 screws
+- **Rounded Corners**: `6 mm` radius for aesthetics and safety
+- **Ventilation**: Optional holes in design variants 2 and 3
+
+These values can be adjusted in the parameter section at the top of the SCAD file.
+
+---
+
+### 🛠️ Manufacturing Method
+
+The casing is designed specifically for **Fused Deposition Modeling (FDM)** 3D printing.
+
+**Recommended Print Settings:**
+- **Material**: PLA or PETG
+- **Layer Height**: 0.2 mm
+- **Infill**: 20%–30%
+- **Supports**: Not required for the base; may be required for cover with screw holes
+- **Print Bed Size**: At least 200 mm x 200 mm
+- **Slicing Software**: Cura, PrusaSlicer, or similar
+
+**Note:** Make sure to enable dimensional accuracy features in the slicer (e.g., "horizontal expansion" in Cura) if screw-fit or tight clearances are critical.
+
+---
+
+### 🧪 Reproduction Instructions
+
+1. Open `IOT Casing.scad` using [OpenSCAD](https://openscad.org/).
+2. Adjust the parameters at the top of the file if needed (e.g., board size).
+3. Render the model (`F6`) and export the STL file (`File → Export → Export as STL`).
+4. Open the STL file in a slicer like Cura or PrusaSlicer.
+5. Set print settings as per the above recommendation.
+6. Print the casing using a 3D printer.
+7. Assemble your electronics inside the enclosure using the screw posts and spacing provided.
+
+---
+
+### 🔐 Licensing
+
+The SCAD design files are licensed under the **CERN Open Hardware License v2.0 (Strongly Reciprocal)**.
+
+You are free to:
+- Use and reproduce the design
+- Modify it for your needs
+- Share your changes under the same license
+
+---
