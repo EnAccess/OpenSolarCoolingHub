@@ -50,6 +50,8 @@ Make the connections as shown below and power the Solar Battery System and the s
 ---
 
 ##  Arduino Pin Assignments
+[Component Datasheet](https://docs.arduino.cc/resources/datasheets/A000067-datasheet.pdf)
+<img width="1201" height="671" alt="image" src="https://github.com/user-attachments/assets/f468b458-7806-46f8-94d9-5dae5e636c56" />
 
 | Arduino Pin | Connected Component              |
 |-------------|----------------------------------|
@@ -82,6 +84,9 @@ Make the connections as shown below and power the Solar Battery System and the s
 ---
 
 ##  DHT22 Sensors
+[Component Datasheet](https://cdn.sparkfun.com/assets/f/7/d/9/c/DHT22.pdf)
+
+<img width="393" height="524" alt="image" src="https://github.com/user-attachments/assets/98cf6d15-c5aa-4802-ae1b-2efea8792e45" />
 
 Each DHT22 sensor has 3 pins:
 
@@ -110,6 +115,9 @@ Each DHT22 sensor has 3 pins:
 ---
 
 ##  GY-906 MLX90614 Sensors
+[Component Datasheet](https://www.espruino.com/MLX90614)
+
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/97bd70f5-0090-4fe0-8c79-6d33eb81b982" />
 
 Each GY-906 sensor has 4 pins:
 
@@ -123,6 +131,9 @@ All 15 sensors share the same I2C bus (parallel connection).
 ---
 
 ##  Relay Module
+[Similar Component Datasheet](https://www.handsontec.com/dataspecs/4Ch-relay.pdf)
+
+<img width="680" height="680" alt="image" src="https://github.com/user-attachments/assets/85263b40-9a2a-4e78-83fd-5d9a1c7ecbb4" />
 
 - `VCC` → 12V (from boost converter)
 - `GND` → Arduino GND
@@ -135,6 +146,9 @@ All 15 sensors share the same I2C bus (parallel connection).
 ---
 
 ##  GSM Module (SIM800C)
+[Component Datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf?srsltid=AfmBOoqcjs44B-wAQnXmSbQzKUEG9c5uxgpeJvIe-FnXu5Hr60QYr4p9)
+
+<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/91250fb6-e1ef-42a0-bc7a-1dc6e4c66233" />
 
 - `VCC` → 5V (from buck converter)
 - `GND` → Arduino GND
@@ -145,6 +159,9 @@ All 15 sensors share the same I2C bus (parallel connection).
 ---
 
 ## Current Sensor (ACS712)
+[Component Datasheet](https://www.elecrow.com/download/ACS712-Datasheet.pdf)
+
+<img width="450" height="337" alt="image" src="https://github.com/user-attachments/assets/5bfe31c0-8ef5-468c-834b-3321a219f8a0" />
 
 - `VCC` → 5V
 - `GND` → Arduino GND
@@ -153,6 +170,9 @@ All 15 sensors share the same I2C bus (parallel connection).
 ---
 
 ##  Voltage Sensor
+[Component Datasheet](https://www.makershop.de/download/voltage-sensor.pdf)
+
+<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/e3a699bd-15de-4f9a-8efd-acfa3c117a6b" />
 
 - `VCC` → 5V
 - `GND` → Arduino GND
