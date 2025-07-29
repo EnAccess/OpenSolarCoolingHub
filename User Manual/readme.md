@@ -142,7 +142,7 @@ All 15 sensors share the same I2C bus (parallel connection).
 
 ---
 
-## ⚡ Current Sensor (ACS712)
+## Current Sensor (ACS712)
 
 - `VCC` → 5V
 - `GND` → Arduino GND
@@ -150,7 +150,7 @@ All 15 sensors share the same I2C bus (parallel connection).
 
 ---
 
-## ⚡ Voltage Sensor
+##  Voltage Sensor
 
 - `VCC` → 5V
 - `GND` → Arduino GND
