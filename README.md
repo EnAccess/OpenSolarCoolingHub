@@ -2,6 +2,18 @@
 
 # OpenSolarCoolingHub Documentation Index
 
+
+
+## 🛡️ License
+This project is open source and licensed as follows:
+- **Hardware designs** (PCBs, enclosures): [CERN OHL v2.0 - Strongly Reciprocal](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)
+- **Firmware / Software**: [MIT License](https://opensource.org/license/mit/)
+- **Documentation**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- See the full [LICENSE](./LICENSE) file for full details.
+<br>
+
+
+
 **Solar Powered IoT Cooling Hubs**  
 _This is a project that brings together architecture, electronics, Internet of Things (IoT), and solar engineering to create affordable and sustainable cooling systems specifically designed for off-grid communities. By integrating smart design with energy-efficient technology and renewable energy sources, the project aims to provide reliable cooling solutions where access to electricity is limited or unavailable. The goal is to improve quality of life, reduce post-harvest losses, and support health and food storage needs in remote or underserved areas._
 
@@ -134,6 +146,8 @@ Academic and industry references used for component selection, system design, an
 End-user guide for setup, usage, and maintenance of the cold room system.
  - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/tree/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual) 
 🔗 readme.md - [Link](https://github.com/EnAccess/OpenSolarCoolingHub/blob/2582ba2290185b933453911665ca5a5f1b0d1c63/User%20Manual/readme.md) : Step-by-step instructions for installation and safe use. <br><br>
+
+
 
 ---
 
