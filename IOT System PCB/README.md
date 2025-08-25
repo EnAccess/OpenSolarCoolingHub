@@ -61,7 +61,7 @@ The project follows standard hardware development practices, with files organize
 
 ### 2. Edit the Schematic
 1. Open the schematic editor (Eeschema) by clicking the schematic icon in the project manager.
-2. Verify components, connections, and net labels against the original BOM and schematic reference (e.g., exported PDF from Altium or `IOT Schematic File.SchDoc`).
+2. Verify components, connections, and net labels against the original BOM and schematic reference .
 3. **Modify **:
    - Add/remove components using KiCAD’s symbol libraries or create custom symbols.
    - Update net labels for clarity.
@@ -110,7 +110,7 @@ The project follows standard hardware development practices, with files organize
    - Save to `ExportSTEP/Solar_Cooling_Project.step`.
 
 ### 5. Validate Outputs
-- **Gerber Comparison**: Use a Gerber viewer to ensure KiCAD-generated Gerbers match the original Altium Gerbers.
+- **Gerber Comparison**: Use a Gerber viewer to ensure KiCAD-generated Gerbers match the original Gerbers.
 - **BOM and Pick & Place**: Confirm component lists and placements align with the original files.
 - **Fabrication Test**: Send Gerber and drill files to a PCB manufacturer (e.g., JLCPCB) to verify acceptance.
 - **Assembly Check**: Provide BOM, Pick & Place, and Assembly PDF to an SMT service for validation.
