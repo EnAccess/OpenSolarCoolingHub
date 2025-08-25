@@ -1,182 +1,128 @@
-This directory contains all PCB design files for the IoT Monitoring System used in the Open Solar Cooling Hub. The design was created using Altium CircuitMaker.
+# IoT System PCB – Open Solar Cooling Hub (KiCAD Approach)
 
-# How to Open and Modify the PCB Design
-
-# Download CircuitMaker
-Visit the official download page:
-https://circuitmaker.com/Download
-Click “Download CircuitMaker” and follow the instructions for your operating system (Windows only).
-
-# Install CircuitMaker
-Run the downloaded .exe file.
-Follow the installation wizard steps.
-After installation, launch the software.
-
-# Sign In or Register
-You will need an Autodesk/Altium account to use CircuitMaker.
-If you don’t have one, register during the first launch.
-This is required since CircuitMaker uses cloud-based project management.
-
-# Load the Project
-Open CircuitMaker.
-open this link: https://365.altium.com/files/FD40F198-177B-4D2F-B652-184317044322
-Open Solar Cooling Hub PCB Project - Enaccess.PrjPcb
-View and edit schematics using .SchDoc
-Modify PCB layout using .CmpcbDoc
-Generate new Gerber files for manufacturing
-Adjust routing, component placement, and net labels
-Re-export fabrication files via the .OutJob files
-
-
-
-#  IoT System PCB – Folder Structure and Content Description
-
-This folder contains all the files required for:
-- PCB **fabrication**
-- **Assembly** (PCBA)
-- **Start 3D case modeling**
-- Full **project source files** and **schematics**
-
-The structure follows standard hardware development and manufacturing practices.
+This repository contains the PCB design files for the IoT Monitoring System used in the Open Solar Cooling Hub, created and managed using **KiCAD**. The project includes schematics, PCB layout, fabrication files (Gerbers, drill files), assembly files (BOM, Pick & Place), and a 3D model for enclosure design. This guide explains how to open, modify, and produce the PCB using KiCAD.
 
 ---
 
-##  1. FAB – Fabrication Files
+## Prerequisites
 
-Located in:  
-`FAB-Open Solar Cooling Hub PCB Project - Enaccess-A.1/`
+1. **Install KiCAD**:
+   - Download KiCAD (v7 or later recommended) from [kicad.org](https://www.kicad.org/download/) for Windows, macOS, or Linux.
+   - Install and launch KiCAD.
 
-These are the files required by PCB manufacturers to fabricate the **bare PCB** (without components).
-
-###  Gerber Files
-
-| Extension | Description                                |
-|-----------|--------------------------------------------|
-| `.GTL`    | Top copper layer                           |
-| `.GBL`    | Bottom copper layer                        |
-| `.GTO`    | Top silkscreen layer                       |
-| `.GBO`    | Bottom silkscreen layer                    |
-| `.GTS`    | Top soldermask                             |
-| `.GBS`    | Bottom soldermask                          |
-| `.GTP`    | Top paste layer                            |
-| `.GBP`    | Bottom paste layer                         |
-| `.GKO`    | Board outline / keep-out layer             |
-| `.GM1`–`.GM16` | Mechanical layers, documentation     |
-| `.REP`, `.RUL`, `.apr` | Reports and design rules     |
-| `.APR_LIB` | Aperture macros used in CAM process       |
+2. **Required Files**:
+   - `Solar Cooling Project.kicad_pro`: KiCAD project file.
+   - `Solar Cooling Project.kicad_sch`: Schematic file.
+   - `Solar Cooling Project.kicad_pcb`: PCB layout file.
+   - Reference files (from original Altium design for validation):
+     - Gerber files (`Solar Cooling Project-F_Cu.gbr`, `B_Cu.gbr`, etc.)
+     - Drill files (`Solar Cooling Project-PTH.drl`, `NPTH.drl`)
+     - BOM (`BOM_PartType-Open Solar Cooling Hub PCB Project.xlsx`)
+     - Pick & Place (`Pick Place for IOT B oard FIle.txt`)
+     - Assembly PDF (`Assembly.PDF`)
+     - 3D model (`IOT B oard FIle.step`)
 
 ---
 
-###  NC Drill Files
+## Folder Structure and Content Description
 
-Located in: `NC Drill/`
+The project follows standard hardware development practices, with files organized for PCB fabrication, assembly, and modification.
 
-| File           | Description                          |
-|----------------|--------------------------------------|
-| `.DRR`         | Drill report summary                 |
-| `.TXT`         | Excellon drill file (for CNC)        |
-| `.LDP`         | Layer pair definition                |
-
----
-
-###  ODB++ Format
-
-Located in: `ODB/`
-
-This is a **comprehensive PCB manufacturing format** used by advanced fabrication services.
-
-Contains:
-- Layer definitions (copper, soldermask, silkscreen)
-- Stackups and materials
-- Drill and via data
-- Netlists
-- Profile and board outline
-
-Use this folder if your manufacturer supports **ODB++** instead of Gerbers.
+| Folder/File | Purpose |
+|-------------|---------|
+| `Gerber/` | PCB fabrication layers (copper, soldermask, silkscreen, etc.) |
+| `NC Drill/` | Drill files for PTH and NPTH holes |
+| `PCBA/` | Assembly files (BOM, Pick & Place, Assembly PDF) |
+| `ExportSTEP/` | 3D STEP model for enclosure design |
+| `Solar Cooling Project.kicad_pro` | KiCAD project file |
+| `Solar Cooling Project.kicad_sch` | Schematic file |
+| `Solar Cooling Project.kicad_pcb` | PCB layout file |
+| `README.md` | Project documentation |
 
 ---
 
-##  2. ExportSTEP – 3D Mechanical Model
+## How to Open and Modify the PCB Design in KiCAD
 
-| File                       | Purpose                          |
-|----------------------------|----------------------------------|
-| `IOT B oard FIle.step`     | 3D model of the PCB for enclosure design in CAD tools like OpenSCAD, Fusion 360 or SolidWorks |
+### 1. Open the Project
+1. Launch KiCAD and open `Solar Cooling Project.kicad_pro` in the project manager.
+2. This loads the schematic (`Solar Cooling Project.kicad_sch`) and PCB layout (`Solar Cooling Project.kicad_pcb`).
 
----
+### 2. Edit the Schematic
+1. Open the schematic editor (Eeschema) by clicking the schematic icon in the project manager.
+2. Verify components, connections, and net labels against the original BOM and schematic reference (e.g., exported PDF from Altium or `IOT Schematic File.SchDoc`).
+3. **Modify (if needed)**:
+   - Add/remove components using KiCAD’s symbol libraries or create custom symbols.
+   - Update net labels for clarity.
+   - Assign footprints to each symbol via the “Assign Footprints” tool, ensuring compatibility with the BOM and Pick & Place file.
+4. Generate a netlist (File > Export > Netlist) for PCB layout.
 
-##  3. PCBA – Assembly Files
+### 3. Edit the PCB Layout
+1. Open the PCB editor (Pcbnew) by clicking the PCB icon in the project manager.
+2. Import the netlist (File > Import > Netlist) to populate components.
+3. **Validate Layout**:
+   - Compare the board outline with `Solar Cooling Project-Edge_Cuts.gbr`.
+   - Verify component placements using `Pick Place for IOT B oard FIle.txt` (import via File > Import > Placement File).
+   - Check routing against Gerber files (`F_Cu.gbr`, `B_Cu.gbr`) using KiCAD’s Gerber Viewer (File > Import > Gerber Files).
+4. **Modify (if needed)**:
+   - Adjust component positions in Pcbnew.
+   - Reroute traces to optimize the layout.
+   - Update the board outline on the `Edge.Cuts` layer.
+5. **Import Drill Files**:
+   - Import `Solar Cooling Project-PTH.drl` and `NPTH.drl` (File > Import > Drill Files) to ensure correct via and hole placement.
+6. **3D Verification**:
+   - View the PCB in 3D (View > 3D Viewer) and compare with `IOT B oard FIle.step`.
+   - Assign 3D models to footprints if needed (Footprint Properties > 3D Settings).
 
-Located in:  
-`PCBA-Open Solar Cooling Hub PCB Project - Enaccess-[NO VARIATIONS]-A.1/`
+### 4. Generate Fabrication and Assembly Files
+1. **Gerber Files**:
+   - In Pcbnew, go to File > Plot.
+   - Select layers: `F.Cu`, `B.Cu`, `F.Silkscreen`, `B.Silkscreen`, `F.Mask`, `B.Mask`, `Edge.Cuts`.
+   - Output to a `Gerber/` folder.
+   - Verify against original Gerbers using a Gerber viewer (e.g., KiCAD’s Gerber Viewer or Gerbv).
+2. **Drill Files**:
+   - In Pcbnew, go to File > Fabrication Outputs > Drill Files.
+   - Generate Excellon drill files for PTH and NPTH.
+   - Output to a `NC Drill/` folder.
+3. **Bill of Materials (BOM)**:
+   - In Eeschema, go to Tools > Generate Bill of Materials.
+   - Export as CSV or XLSX to `PCBA/BOM.xlsx`.
+   - Cross-check with `BOM_PartType-Open Solar Cooling Hub PCB Project.xlsx`.
+4. **Pick & Place File**:
+   - In Pcbnew, go to File > Fabrication Outputs > Component Placement File.
+   - Output to `PCBA/Pick_Place.txt`.
+   - Verify against `Pick Place for IOT B oard FIle.txt`.
+5. **Assembly Drawing**:
+   - In Pcbnew, go to File > Plot and export a PDF of the board layout to `PCBA/Assembly.pdf`.
+6. **3D Model**:
+   - In Pcbnew, go to File > Export > STEP.
+   - Save to `ExportSTEP/Solar_Cooling_Project.step`.
 
-These are used during **component assembly** (manual or SMT machine).
-
-### 📋 Bill of Materials (BOM)
-
-| File Name                                                    | Description                             |
-|--------------------------------------------------------------|-----------------------------------------|
-| `BOM_PartType-Open Solar Cooling Hub PCB Project.xlsx`       | List of all components, part numbers, footprints, and reference designators |
-
-###  Pick & Place File
-
-| File Name                             | Description                          |
-|---------------------------------------|--------------------------------------|
-| `Pick Place for IOT B oard FIle.txt`  | X/Y coordinates and orientation for all components |
-
-###  Assembly Drawing
-
-| File Name         | Description                         |
-|-------------------|-------------------------------------|
-| `Assembly.PDF`    | Visual layout of components for QC and hand assembly |
-
----
-
-##  4. Schematic & Project Source Files
-
-These files allow others to **modify, recompile, or regenerate** the PCB from source using **Circuitmaker PCB Designer** or **compatible EDA tools**.
-
-| File Name                                     | Description                               |
-|----------------------------------------------|-------------------------------------------|
-| `IOT Schematic File.SchDoc`                  | Main schematic diagram                     |
-| `IOT B oard FIle.CMPcbDoc`                   | PCB layout file                            |
-| `Open Solar Cooling Hub PCB Project - Enaccess.PrjPcb` | Project file referencing schematic and PCB layout |
-| `Open Solar Cooling Hub PCB Project - Enaccess.PrjPcbStructure` | Project structure definition         |
-| `Assembly.OutJob`                            | Altium job file for exporting assembly files |
-| `Fabrication.OutJob`                         | Altium job file for generating Gerbers, drills, etc. |
-| `readme`                                     | Notes about the project (may be edited)    |
-
----
-
-##  Summary of Folder Contents
-
-| Folder / File                                | Purpose                                     |
-|----------------------------------------------|---------------------------------------------|
-| `Gerber/`                                     | PCB fabrication layers                      |
-| `NC Drill/`                                   | Hole/via definitions                        |
-| `ODB/`                                        | Consolidated PCB data                       |
-| `ExportSTEP/`                                 | 3D mechanical model                         |
-| `PCBA-.../BOM.xlsx`                           | Component sourcing                          |
-| `PCBA-.../Pick Place.txt`                     | SMT assembly automation                     |
-| `PCBA-.../Assembly.PDF`                       | Human-readable component placement          |
-| `.SchDoc`, `.CMPcbDoc`, `.PrjPcb`, `.OutJob`  | Editable source files for schematic/layout  |
+### 5. Validate Outputs
+- **Gerber Comparison**: Use a Gerber viewer to ensure KiCAD-generated Gerbers match the original Altium Gerbers.
+- **BOM and Pick & Place**: Confirm component lists and placements align with the original files.
+- **Fabrication Test**: Send Gerber and drill files to a PCB manufacturer (e.g., JLCPCB) to verify acceptance.
+- **Assembly Check**: Provide BOM, Pick & Place, and Assembly PDF to an SMT service for validation.
 
 ---
 
-##  How to Use
+## How to Use the Outputs
 
-###  To fabricate the board:
-Send the contents of the **Gerber**, **NC Drill**, and optionally **ODB** folders to a PCB manufacturer like JLCPCB.
-
-###  To assemble components:
-Send the **BOM**, **Pick & Place**, and **Assembly PDF** to an SMT service provider like JLCPCB.
-
-###  To modify or rebuild the design:
-Open the schematic and PCB files using **Circuitmaker**, then use the **OutJob files** to regenerate outputs.
+- **Fabrication**: Send the `Gerber/` and `NC Drill/` folders to a PCB manufacturer (e.g., JLCPCB, PCBWay).
+- **Assembly**: Provide `PCBA/BOM.xlsx`, `PCBA/Pick_Place.txt`, and `PCBA/Assembly.pdf` to an SMT assembly service.
+- **Modify/Rebuild**: Use `Solar Cooling Project.kicad_sch` and `.kicad_pcb` in KiCAD to edit the design and regenerate outputs.
+- **Enclosure Design**: Use `ExportSTEP/Solar_Cooling_Project.step` in CAD tools like FreeCAD or Fusion 360.
 
 ---
 
-##  Licensing Note
+## Licensing
 
-All design files are licensed under the **CERN Open Hardware License v2.0**.  
+This project is licensed under the **CERN Open Hardware License v2.0**. Ensure all modifications and derivatives retain this license.
 
+---
+
+## Notes
+
+- If the existing `.kicad_sch` or `.kicad_pcb` files are incomplete, reference the original Altium outputs (Gerbers, BOM, etc.) to rebuild the schematic and layout.
+- Use KiCAD’s built-in libraries or external sources (e.g., DigiKey, SnapEDA) for symbols and footprints not included in the project.
+- For complex modifications, consult the original Assembly PDF and 3D STEP file to ensure accuracy.
 
