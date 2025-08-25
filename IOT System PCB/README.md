@@ -1,4 +1,4 @@
-# IoT System PCB – Open Solar Cooling Hub (KiCAD Approach)
+# IoT System PCB – Open Solar Cooling Hub using KiCAD
 
 This repository contains the PCB design files for the IoT Monitoring System used in the Open Solar Cooling Hub, created and managed using **KiCAD**. The project includes schematics, PCB layout, fabrication files (Gerbers, drill files), assembly files (BOM, Pick & Place), and a 3D model for enclosure design. This guide explains how to open, modify, and produce the PCB using KiCAD.
 
@@ -7,14 +7,26 @@ This repository contains the PCB design files for the IoT Monitoring System used
 ## Prerequisites
 
 1. **Install KiCAD**:
-   - Download KiCAD (v7 or later recommended) from [kicad.org](https://www.kicad.org/download/) for Windows, macOS, or Linux.
+   - Download KiCAD 9.0.3 from [kicad.org](https://www.kicad.org/download/) for Windows, macOS, or Linux.
    - Install and launch KiCAD.
+  
+   - Application: KiCad x64 on x64
+
+   - Libraries:
+     	- wxWidgets 3.2.8
+      - FreeType 2.13.3
+      - HarfBuzz 10.2.0
+      - FontConfig 2.15.0
+      - libcurl/8.13.0-DEV Schannel zlib/1.3.1
+
+
+
 
 2. **Required Files**:
    - `Solar Cooling Project.kicad_pro`: KiCAD project file.
    - `Solar Cooling Project.kicad_sch`: Schematic file.
    - `Solar Cooling Project.kicad_pcb`: PCB layout file.
-   - Reference files (from original Altium design for validation):
+   - Reference files :
      - Gerber files (`Solar Cooling Project-F_Cu.gbr`, `B_Cu.gbr`, etc.)
      - Drill files (`Solar Cooling Project-PTH.drl`, `NPTH.drl`)
      - BOM (`BOM_PartType-Open Solar Cooling Hub PCB Project.xlsx`)
@@ -50,7 +62,7 @@ The project follows standard hardware development practices, with files organize
 ### 2. Edit the Schematic
 1. Open the schematic editor (Eeschema) by clicking the schematic icon in the project manager.
 2. Verify components, connections, and net labels against the original BOM and schematic reference (e.g., exported PDF from Altium or `IOT Schematic File.SchDoc`).
-3. **Modify (if needed)**:
+3. **Modify **:
    - Add/remove components using KiCAD’s symbol libraries or create custom symbols.
    - Update net labels for clarity.
    - Assign footprints to each symbol via the “Assign Footprints” tool, ensuring compatibility with the BOM and Pick & Place file.
@@ -107,10 +119,10 @@ The project follows standard hardware development practices, with files organize
 
 ## How to Use the Outputs
 
-- **Fabrication**: Send the `Gerber/` and `NC Drill/` folders to a PCB manufacturer (e.g., JLCPCB, PCBWay).
+- **Fabrication**: Send the `Gerber/` and `NC Drill/` folders to a PCB manufacturer e.g., JLCPCB, PCBWay.
 - **Assembly**: Provide `PCBA/BOM.xlsx`, `PCBA/Pick_Place.txt`, and `PCBA/Assembly.pdf` to an SMT assembly service.
 - **Modify/Rebuild**: Use `Solar Cooling Project.kicad_sch` and `.kicad_pcb` in KiCAD to edit the design and regenerate outputs.
-- **Enclosure Design**: Use `ExportSTEP/Solar_Cooling_Project.step` in CAD tools like FreeCAD or Fusion 360.
+- **Enclosure Design**: Use `ExportSTEP/Solar_Cooling_Project.step` in CAD tools like OpenSCAD or FreeCAD.
 
 ---
 
@@ -120,9 +132,4 @@ This project is licensed under the **CERN Open Hardware License v2.0**. Ensure a
 
 ---
 
-## Notes
-
-- If the existing `.kicad_sch` or `.kicad_pcb` files are incomplete, reference the original Altium outputs (Gerbers, BOM, etc.) to rebuild the schematic and layout.
-- Use KiCAD’s built-in libraries or external sources (e.g., DigiKey, SnapEDA) for symbols and footprints not included in the project.
-- For complex modifications, consult the original Assembly PDF and 3D STEP file to ensure accuracy.
 
