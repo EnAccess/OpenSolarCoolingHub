@@ -130,6 +130,110 @@ The project follows standard hardware development practices, with files organize
 
 This project is licensed under the **CERN Open Hardware License v2.0**. Ensure all modifications and derivatives retain this license.
 
+
 ---
+---
+---
+---
+---
+
+
+
+
+# 📦 Ordering Guide for Solar Cooling Hub PCB on JLCPCB
+
+This document provides step-by-step instructions for ordering the **Solar Cooling Hub Project PCB** on [JLCPCB](https://jlcpcb.com) using the specified configuration.
+
+---
+
+## 1. Prepare Your Gerber File
+- Put your project’s Gerber files folder and NCDrill files folder  in one zip folder and save it as SolarCoolingHub_Y60.zip.  
+- File to upload: **SolarCoolingHub_Y60.zip**
+
+---
+
+## 2. Go to JLCPCB Website
+- Visit: [https://jlcpcb.com](https://jlcpcb.com)  
+- Log in or create an account.
+
+---
+
+## 3. Upload Your Gerber File
+- Click **“Order Now”** or **“Quote Now”**.  
+- Upload **SolarCoolingHub_Y60.zip**.  
+- Confirm that the system correctly identifies the board dimensions.
+
+---
+
+## 4. Configure PCB Parameters
+
+| Parameter | Value |
+|-----------|-------|
+| **Build Time** | 3 days |
+| **Base Material** | FR-4 |
+| **Layers** | 2 |
+| **Dimension** | 166 mm × 173 mm |
+| **PCB Qty** | 5 |
+| **Product Type** | Industrial/Consumer electronics |
+| **Different Design** | 1 |
+| **Delivery Format** | Single PCB |
+| **PCB Thickness** | 1.6 mm |
+| **Specify Stackup** | No |
+| **Layer Sequence** | Default |
+| **PCB Color** | Yellow |
+| **Silkscreen** | White |
+| **Material Type** | FR4-Standard TG 135–140 |
+| **Via Covering** | Tented |
+| **Surface Finish** | HASL (with lead) |
+| **Deburring/Edge rounding** | No |
+| **Outer Copper Weight** | 1 oz |
+| **Gold Fingers** | No |
+| **Electrical Test** | Flying Probe Fully Test |
+| **Castellated Holes** | No |
+| **Edge Plating** | No |
+| **Mark on PCB** | Remove Mark |
+| **Blind Slot** | No |
+| **Min via hole size/diameter** | 0.3 mm (0.4/0.45 mm) |
+| **4-Wire Kelvin Test** | No |
+| **Paper between PCBs** | No |
+| **Appearance Quality** | IPC Class 2 Standard |
+| **Confirm Production File** | No |
+| **Silkscreen Technology** | Ink-jet/Screen Printing |
+| **Package Box** | With JLCPCB logo |
+| **Inspection Report** | No |
+| **Board Outline Tolerance** | ±0.2 mm (Regular) |
+| **UL Marking** | No |
+| **Countersink Hole** | No |
+
+---
+
+## 5. Review & Confirm
+- Verify all parameters match your project’s requirements.  
+- Use the online preview tool to confirm the board outline.
+
+---
+
+## 6. Add to Cart
+- Click **“Save to Cart”**.  
+
+---
+
+## 7. Choose Shipping Method
+- Select your preferred courier. Choose from DHL, FedEx, or other shipping methods.
+
+---
+
+## 8. Make Payment
+- Proceed to checkout and pay. Choose from PayPal or credit card.
+
+---
+
+## 9. Track Production
+- Monitor progress in your JLCPCB dashboard:  
+  *In Production → Finished → Shipped*
+
+---
+
+✅ In **3 days build time + shipping**, you will receive **5 Yellow Solar Cooling Hub PCBs** built to the above exact specifications.
 
 
